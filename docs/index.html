@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Imperio PokéYen</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1a1a1a; --bg: #fdfcfa; --dim: #6b6b6b; --line: #e3e0d8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg: #ece9e2; --bg: #15171a; --dim: #9a9a95; --line: #2c2f34; }
+  }
+  * { box-sizing: border-box }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 16px;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 34rem }
+  h1 { font-size: clamp(2rem, 7vw, 3rem); margin: 0 0 .2em; letter-spacing: -.02em }
+  p { color: var(--dim); margin: 0 0 1em }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0 1.2em }
+  a { color: inherit }
+  small { color: var(--dim) }
+</style>
+<main>
+  <h1>Imperio PokéYen</h1>
+  <p>Aplicación web sobre PokeMMO. Todavía sin contenido: esto solo confirma que
+     GitHub Pages sirve <code>docs/</code> de este repositorio.</p>
+  <hr>
+  <small>Datos de <a href="https://github.com/Yimmer-R/Wiki-PokeMMO">Wiki-PokeMMO</a>.
+     Mecánicas de 5.ª generación.</small>
+</main>
+</html>
